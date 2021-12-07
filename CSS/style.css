@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+*{font-family: "microsoft yahei";}
+body{
+	position: relative;
+	background-color:#FFFFFF;
+	width: 1280px;
+	margin:0 auto;
+	font-family: tonjay;
+	
+	}
+div{
+	margin:0 auto;
+	background-attachment: fixed;
+	background-position: center center;
+		}
+p{
+	text-align: left;
+	text-indent: 2em;
+	color:#000;
+	margin: 5px 10px;
+	line-height: 2;
+}
+
+img{
+	display: block;
+	margin: 10px auto;
+	width: 60%;
+}
+h2,h3,h4,h6{
+	text-align: center;
+	font-weight:bolder;
+	font-family: simhei;
+	color:#000;
+	margin-top: 0;
+	padding-top: 10px;
+}
+a:link,a:active{
+	text-decoration: none;
+	color:black;
+
+}
+iframe{
+	margin: 0 auto;
+}
+#title{
+	width: 100%;
+	margin: 0 auto;
+	height: 600px;
+	background: url(../imgs/bg.jpg) ;
+	background-size: cover;
+	margin-bottom:30px;
+	overflow: hidden;
+		}
+.container{
+	width: 90%;
+	background-color:#FFF;
+	margin:0;
+	padding:0 5px 10px 5px;
+		}
+.empty{
+	width: 100%;
+	height: 30px;
+}
+
+#main{
+	width: 85%;
+	box-sizing: border-box;
+}
+main{
+	display: block;
+	width: 100%;
+	margin:0 auto;
+}
+#content{
+	box-sizing: border-box;
+	font-family: simhei;
+	display: block;
+	list-style: none;
+	text-align: center;
+	margin:0 auto;
+	padding:0;
+	background-color:#FFF;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+	position: sticky;
+	top:0;
+	z-index: 100;
+
+}
+#content li{
+	display: inline-block;
+	margin: 0 auto;
+
+}
+#content a{
+	
+	display:inline-block;
+	font-size: 18px;
+	color:#FFFFFF;
+	box-sizing: border-box;
+	padding-top:8px;
+	width: 100px;
+	height: 40px;
+	margin:0;
+	background:#3C3C3C;
+	text-align:center;
+	transition: 0.5s;
+		}
+#content a:hover{
+	color: white;
+}
+
+
+
+
+
+
+#abstract,#parttwo,#partthree,#partfour,#partfive,#partsix{
+	background-size: cover;
+	width: 105%;
+	height:auto;
+	overflow: auto;
+	margin:0;
+	padding:20px 0;
+	padding-left:10px;
+	overflow-x: hidden;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	background-color:#EEEEEE;
+	color: white;
+	height:auto;
+	margin-top: 20px;
+		}
+.information{
+	text-indent: 0;
+	display: block;
+	font-size: 10px;
+	text-align: center;
+	margin:2px 0;
+}
+h4{
+	margin-top:15px;
+	margin-bottom:3px;
+}
+h2{
+	height:40px;
+	color: #FFF;
+}
+h6{
+	font-weight: 100;
+	padding: 10px 50px;
+	text-align: left;
+}

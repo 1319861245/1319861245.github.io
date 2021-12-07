@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+div[id^="chart"]{
+	margin: 20px 0;
+}
+#chartone{
+	width: 80%;
+	margin:0 auto;
+	height: 400px;
+	background-color:#FFF;
+}
+
+#charttwo{
+	width: 80%;
+	height: 400px;
+	margin:0 auto;
+	background-color:#FFF;
+}
